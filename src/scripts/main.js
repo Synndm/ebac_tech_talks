@@ -1,1 +1,1 @@
-console.log('Oi, mundo');
+AOS.init();

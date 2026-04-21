@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EBAC TECH TALKS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/main.scss">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./styles/main.scss">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
+
 <body>
     <header class="hero">
         <div class="container">
@@ -38,18 +42,88 @@
         </div>
     </header>
 
-    <section class="event">
-        <div class="container">
+    <section class="event event--frontend" >
+        <div class="container" data-aos="flip-up">
             <div class="event__details">
                 <h2 class="event__details__title">Front-end</h2>
                 <p class="event__details__description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quidem placeat voluptates consequuntur aliquam tempore nemo vel, fugit aperiam a! Quasi illum aut reiciendis repellendus iure voluptate hic vero beatae?
+                    Explore o universo do desenvolvimento front-end e descubra como transformar ideias em experiências
+                    digitais envolventes. Nesta trilha, você vai aprender a criar interfaces modernas, responsivas e
+                    acessíveis, focadas na melhor experiência do usuário.
+                    <br>
+                    Domine tecnologias essenciais como HTML, CSS e JavaScript, além de frameworks e bibliotecas modernas
+                    como React, que permitem construir aplicações rápidas, dinâmicas e escaláveis. Entenda também
+                    conceitos fundamentais como componentização, gerenciamento de estado e integração com APIs.
                 </p>
             </div>
             <img class="event__image" src="./images/frontend.png" alt="front-end">
         </div>
     </section>
+    <section class="event event--ux-ui event--image-left" >
+        <div class="container" data-aos="flip-down">
+            <div class="event__details">
+                <h2 class="event__details__title">UI/UX</h2>
+                <p class="event__details__description">
+                    Mergulhe no mundo de UX/UI Design e aprenda a criar experiências digitais intuitivas, eficientes e
+                    visualmente atraentes. Nesta trilha, você vai entender como os usuários pensam, interagem e se
+                    comportam dentro de interfaces digitais.
 
+                    Explore conceitos de usabilidade, design centrado no usuário, arquitetura da informação e
+                    prototipação, utilizando ferramentas modernas para transformar ideias em soluções reais.
+
+                    Você também vai aprender sobre identidade visual, hierarquia de informação, design responsivo e
+                    criação de interfaces que equilibram estética e funcionalidade.
+
+                    Se o seu objetivo é criar produtos que não apenas funcionam, mas encantam e engajam usuários, essa é
+                    a trilha ideal.
+                </p>
+            </div>
+            <img class="event__image" src="./images/ui-ux.png" alt="ui-ux">
+        </div>
+    </section>
+    <section class="event event--data-science" >
+        <div class="container" data-aos="flip-up">
+            <div class="event__details">
+                <h2 class="event__details__title">Data Science</h2>
+                <p class="event__details__description">
+                    Entre no universo da ciência de dados e descubra como transformar dados em insights valiosos para
+                    tomada de decisão. Nesta trilha, você vai aprender a coletar, analisar e interpretar grandes volumes
+                    de dados de forma estratégica.
+
+                    Explore conceitos de estatística, análise exploratória, visualização de dados e introdução ao
+                    machine learning, utilizando ferramentas e linguagens amplamente utilizadas no mercado.
+
+                    Você também terá contato com técnicas para identificar padrões, prever tendências e gerar
+                    inteligência a partir dos dados.
+
+                    Se você quer atuar em uma das áreas mais promissoras da tecnologia e usar dados para resolver
+                    problemas reais, essa trilha é para você.
+                </p>
+            </div>
+            <img class="event__image" src="./images/data.png" alt="data-science">
+        </div>
+    </section>
+    <section class="event event--backend event--image-left" >
+        <div class="container" data-aos="flip-down">
+            <div class="event__details">
+                <h2 class="event__details__title">Back-end</h2>
+                <p class="event__details__description">
+                    Descubra o universo do desenvolvimento back-end e entenda como funcionam os bastidores das
+                    aplicações modernas. Nesta trilha, você vai aprender a construir sistemas robustos, seguros e
+                    escaláveis, responsáveis por processar dados, gerenciar regras de negócio e garantir o funcionamento
+                    eficiente de toda a aplicação.
+
+                    Explore tecnologias como Node.js, APIs REST, bancos de dados relacionais e não relacionais, além de
+                    conceitos essenciais como autenticação, integração de sistemas e arquitetura de software.
+                </p>
+            </div>
+            <img class="event__image" src="./images/backend.png" alt="backend">
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
+
 </html>
